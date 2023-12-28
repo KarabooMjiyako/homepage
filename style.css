@@ -22,17 +22,19 @@ h3 {
   background: var(--secondary-color);
 }
 
-.custom-btn {
+button{
+  margin: 0 auto;
+  text-align: center;
   background: var(--primary-color);
   color: #fff;
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
-  margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
+
 
 .custom-btn:hover {
   color: blue;
