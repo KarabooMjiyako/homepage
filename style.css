@@ -31,7 +31,7 @@ a{
   align-items: center;
   text-align: center;
   background: var(--primary-color);
-  color: #fff;
+  color: white;
   margin: 0 auto;
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
@@ -42,6 +42,3 @@ a{
 }
 
 
-button:hover {
-  color: blue;
-}
