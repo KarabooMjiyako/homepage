@@ -6,15 +6,15 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.hero{
-  background: var( --secondary-color: #f5f2fe);
+.hero {
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
 h1,
 h2,
 h3 {
-  padding: 10px;
   text-align: center;
   margin: 0;
 }
@@ -22,13 +22,11 @@ h3 {
  h1 {
    font-family: 'Playfair Display', serif;
    font-weight: bold;
+   font-size: 96px;
  }
-
-h2,
-h3{
-  margin: 20px;
+p {
+  font-weight: normal;
 }
-
 .bg {
   background: var(--secondary-color);
 }
@@ -42,7 +40,9 @@ a{
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  padding: 20px 15px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
 }
