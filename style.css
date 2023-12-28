@@ -6,6 +6,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body{
+  background: var( --secondary-color: #f5f2fe);
+}
+
 h1,
 h2,
 h3 {
@@ -36,6 +40,6 @@ button{
 }
 
 
-.custom-btn:hover {
+button:hover {
   color: blue;
 }
