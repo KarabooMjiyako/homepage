@@ -27,7 +27,7 @@ h3 {
   background: var(--secondary-color);
 }
 
-button{
+a{
   display: flex;
   justify-content: center;
   align-items: center;
