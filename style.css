@@ -24,6 +24,11 @@ h3 {
    font-weight: bold;
  }
 
+h2,
+h3{
+  margin: 20px;
+}
+
 .bg {
   background: var(--secondary-color);
 }
