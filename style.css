@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500&family=Playfair+Display:wght@800&display=swap');
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -11,6 +13,10 @@ h3 {
   text-align: center;
   margin: 0;
 }
+
+ h1 {
+   font-family: font-family: 'Playfair Display', serif;
+ }
 
 .bg {
   background: var(--secondary-color);
