@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.bg {
+  background: var(--secondary-color);
+}
+
+.custom-btn {
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.custom-btn:hover {
+  color: blue;
+}
