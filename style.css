@@ -14,37 +14,45 @@
 
 h1,
 h2,
-h3 {
+p {
   text-align: center;
   margin: 0;
 }
 
- h1 {
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+h1{
+  font-size: 96px;
+}
+
+ .hero h1 {
    font-family: 'Playfair Display', serif;
    font-weight: bold;
    font-size: 96px;
  }
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
 p {
   font-weight: normal;
 }
-.bg {
-  background: var(--secondary-color);
-}
 
 a{
-  align-items: center;
-  text-align: center;
-  background: var(--primary-color);
-  color: white;
-  margin: 0 auto;
-  box-shadow: var(--box-shadow);
-  border: 1px solid var(--primary-color);
+ background: var(--secondary-color);
   border-radius: 4px;
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
 }
 
 
