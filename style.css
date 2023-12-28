@@ -17,11 +17,11 @@ h3 {
   padding: 10px;
   text-align: center;
   margin: 0;
-  display: block;
 }
 
  h1 {
    font-family: 'Playfair Display', serif;
+   font-weight: bold;
  }
 
 .bg {
