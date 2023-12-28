@@ -47,7 +47,7 @@ p {
 }
 
 a{
- background: var(--secondary-color);
+ background: var(--primary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
